@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212224;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Top-bar {
+  background-color: rgba(32, 33, 36, 0.956);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 9rem;
+  padding: 1.1rem 0 0;
+  border-bottom: 0.4px solid #3c4043;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.google-image {
+  width: 92px;
+  height: 30px;
+}
+
+.search-bar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  background-color: rgba(82, 84, 91, 0.481);
+  width: 90%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 80% 15%;
+  overflow: hidden;
+  padding: 0 1rem;
+  border-radius: 30px;
+}
+
+.input-box {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.links-ul {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 60%;
+  position: relative;
+  right: 8px;
+}
+
+.links-li {
+  list-style: none;
+  text-align: center;
+  height: inherit;
+  margin: 0 10px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.links-images {
+  width: 2rem;
+}
+
+.icons-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 50%;
+}
+
+.icons-li {
+  list-style: none;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-images {
+  height: 1.4rem;
+  border-radius: 50%;
+}
+
+.icons-li:hover {
+  background-color: #494a4c;
+  cursor: pointer;
+}
+
+.bottom-section {
+  margin-top: 0.5rem;
+}
+
+.groot {
+  width: 2rem;
+  object-fit: cover;
+  height: 2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: inherit;
+}
+
+.tab {
+  list-style: none;
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 30px;
+  border: 0.3px solid #494a4c;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 15rem;
+}
+
+.tab:hover {
+  background-color: #49494c;
+  cursor: pointer;
+}
+
+.tab-link {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 15rem;
+  color: white;
+}
+
+.right-section {
+  position: relative;
+}
+
+.main-card {
+  position: absolute;
+  top: 5rem;
+  border-radius: 8px;
+  width: 25rem;
+  border: 0.3px solid #494a4c;
+  height: 43rem;
+  overflow: hidden;
+}
+
+.myImage {
+  height: 25rem;
+  border: 0.3px solid #494a4c;
+  text-align: center;
+}
+
+.Image {
+  height: inherit;
+}
+
+.name {
+  color: #a1a3a7;
+  font-size: 1.5rem;
+  border: 0.3px solid #494a4c;
+  font-weight: lighter;
+  height: 4rem;
+  padding: 1rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  word-spacing: 2px;
+  padding: 1rem;
+  color: #bcc0c7;
+}
+
+h5 {
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: rgb(199, 191, 191);
+}
+
+span {
+  color: rgba(255, 255, 255, 0.666);
+}
+
+.left-section {
+  padding: 5rem 8rem 5rem 0;
+}
+
+.sub-logo {
+  float: left;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #fff;
+  margin: 3px 15px 0;
+}
+
+.main-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.95rem;
+}
+
+.sub-area {
+  height: 8rem;
+  color: #bcc0c7;
+}
+
+.mini-link {
+  font-size: 0.8rem;
+}
+
+sup {
+  font-size: 1rem;
+}
+
+.main-link {
+  color: #82aae9;
+  font-size: 1.4rem;
+  margin: 5px;
+  padding-left: 20px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.main-link:hover {
+  text-decoration: underline;
+}
+
+.sub-para {
+  color: #bcc0c7;
+  padding-left: 20px;
+  line-height: 1.3rem;
+}
+
+.sub-topics {
+  height: 20rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 15px 50px 50px 25px;
+}
+
+.mapping-links {
+  text-decoration: none;
+}
